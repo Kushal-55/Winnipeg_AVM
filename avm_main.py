@@ -551,7 +551,6 @@ class WinnipegAVM:
             }
 
             logger.info(f"  R² Score: {r2:.4f}")
-            logger.info(f"  RMSE: ${rmse:,.0f}")
             logger.info(f"  MAE: ${mae:,.0f}")
             logger.info(f"  MAPE: {mape:.2f}%")
 
@@ -577,7 +576,7 @@ class WinnipegAVM:
         logger.info(f"Best Parameters: {best_result['params']}")
         logger.info(f"Performance Metrics:")
         logger.info(f"  R² Score: {best_result['r2']:.4f} ({best_result['r2']*100:.1f}% variance explained)")
-        logger.info(f"  RMSE: ${best_result['rmse']:,.0f}")
+        logger.info(f"  MAPE: {best_result['mape']:.2f}%")
         logger.info(f"  MAPE: {best_result['mape']:.2f}%")
 
         # prediction accuracy 
