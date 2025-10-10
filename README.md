@@ -39,7 +39,7 @@ This repository provides a Python implementation of an Automated Valuation Model
    ```bash
    python avm_main.py
    ```
-3. Logs will be stored in `avm_main.log` in the project root.
+3. Logs will be stored in `winnipeg_avm.log` in the project root.
 
 ## Data
 - Data is fetched from the OData endpoint:
