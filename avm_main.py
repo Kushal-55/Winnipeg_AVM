@@ -26,7 +26,7 @@ warnings.filterwarnings('ignore')
 
 # Config
 # Defining variables for socrata client
-CURRENT_YEAR = '2026'
+CURRENT_YEAR = '2025'
 DOMAIN = "data.winnipeg.ca"
 MAX_ROWS = 1000000
 TARGET_COL = "total_assessed_value"
