@@ -12,8 +12,8 @@ This repository provides a Python implementation of an Automated Valuation Model
 - `README.md`: This documentation file.
 - `Outputs` : Contains the log file and plots
 - `Documentation`: Contains two documentation files explaining the project:
-- -accessibility_documentation : For non-technical audiences
-- -technial_documentation : For technical audiences
+- - accessibility_documentation : For non-technical audiences
+- - technial_documentation : For technical audiences
 
 ## How to run the Python script:
 1. Clone this repository:
