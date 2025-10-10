@@ -1,7 +1,7 @@
 # Winnipeg_AVM
 This is my submission for the technical test for Opportunity No. 44161. 
 
-# Winnipeg Automated Valuation Model (AVM)
+# Automated Valuation Model (AVM)
 
 ## Description
 This repository provides a Python implementation of an Automated Valuation Model (AVM) for predicting the assessed value of residential properties in Winnipeg. It uses open source libraries and fetches data live from the City of Winnipeg Open Data Portal.
@@ -13,7 +13,7 @@ This repository provides a Python implementation of an Automated Valuation Model
 - `Outputs` : Contains the log file and plots
 - `Documentation`: Contains two documentation files explaining the project:
 - -accessibility_documentation : For non-technical audiences
-- - technial_documentation : For technical audiences
+- -technial_documentation : For technical audiences
 
 ## How to run the Python script:
 1. Clone this repository:
