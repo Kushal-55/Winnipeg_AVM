@@ -1,0 +1,412 @@
+2025-10-09 20:26:01 INFO  Logging started
+2025-10-09 20:26:01 INFO Starting dataset load
+2025-10-09 20:26:01 INFO Trying Socrata client
+2025-10-09 20:26:01 WARNING Requests made without an app_token will be subject to strict throttling limits.
+2025-10-09 20:26:42 INFO Data Summary:
+2025-10-09 20:26:42 INFO Dataset Shape (244594, 53)
+2025-10-09 20:26:42 INFO Data Types:
+2025-10-09 20:26:42 INFO roll_number                   object
+street_number                 object
+street_name                   object
+street_type                   object
+full_address                  object
+neighbourhood_area            object
+market_region                 object
+total_living_area             object
+building_type                 object
+basement                      object
+basement_finish               object
+year_built                    object
+rooms                         object
+air_conditioning              object
+fire_place                    object
+attached_garage               object
+detached_garage               object
+pool                          object
+property_use_code             object
+assessed_land_area            object
+property_influences           object
+zoning                        object
+total_assessed_value          object
+assessment_date               object
+detail_url                    object
+current_assessment_year       object
+property_class_1              object
+status_1                      object
+assessed_value_1              object
+multiple_residences           object
+geometry                      object
+dwelling_units                object
+centroid_lat                  object
+centroid_lon                  object
+gisid                         object
+property_class_2              object
+status_2                      object
+assessed_value_2              object
+property_class_3              object
+status_3                      object
+assessed_value_3              object
+water_frontage_measurement    object
+sewer_frontage_measurement    object
+unit_number                   object
+number_floors_condo           object
+street_direction              object
+property_class_4              object
+status_4                      object
+assessed_value_4              object
+street_suffix                 object
+property_class_5              object
+status_5                      object
+assessed_value_5              object
+dtype: object
+2025-10-09 20:26:43 INFO Missing Values Percentage per Column:
+2025-10-09 20:26:43 INFO assessed_value_5              99.999182
+status_5                      99.999182
+property_class_5              99.999182
+property_class_4              99.995094
+status_4                      99.995094
+assessed_value_4              99.995094
+assessed_value_3              99.959525
+status_3                      99.959525
+property_class_3              99.959525
+street_suffix                 99.743657
+assessed_value_2              99.183545
+status_2                      99.183545
+property_class_2              99.183545
+street_direction              95.062430
+number_floors_condo           89.226637
+unit_number                   88.920006
+property_influences           52.143961
+building_type                 21.054482
+air_conditioning              21.054073
+pool                          20.457575
+detached_garage               20.457575
+attached_garage               20.457575
+assessed_land_area            11.575100
+zoning                        11.286458
+rooms                         10.283981
+year_built                    10.280710
+total_living_area             10.280710
+basement                      10.065660
+multiple_residences            9.458122
+basement_finish                9.458122
+fire_place                     9.458122
+sewer_frontage_measurement     3.825114
+water_frontage_measurement     3.709003
+street_number                  2.006591
+street_type                    1.588755
+street_name                    1.316467
+full_address                   1.314423
+dwelling_units                 0.372045
+status_1                       0.372045
+property_class_1               0.372045
+total_assessed_value           0.372045
+assessed_value_1               0.372045
+dtype: float64
+2025-10-09 20:26:47 INFO Target Null Count:910
+2025-10-09 20:26:47 INFO Min Value for target variable1.0
+2025-10-09 20:26:47 INFO Max Value for target variable1.0
+2025-10-09 20:26:47 INFO Skewness of target variable: 94.25
+2025-10-10 00:36:07 INFO  Logging started
+2025-10-10 00:36:07 INFO Starting dataset load
+2025-10-10 00:36:07 INFO Trying Socrata client
+2025-10-10 00:36:07 WARNING Requests made without an app_token will be subject to strict throttling limits.
+2025-10-10 00:36:41 INFO Data Summary:
+2025-10-10 00:36:41 INFO Dataset Shape (244594, 53)
+2025-10-10 00:36:41 INFO Data Types:
+2025-10-10 00:36:41 INFO roll_number                   object
+street_number                 object
+street_name                   object
+street_type                   object
+full_address                  object
+neighbourhood_area            object
+market_region                 object
+total_living_area             object
+building_type                 object
+basement                      object
+basement_finish               object
+year_built                    object
+rooms                         object
+air_conditioning              object
+fire_place                    object
+attached_garage               object
+detached_garage               object
+pool                          object
+property_use_code             object
+assessed_land_area            object
+property_influences           object
+zoning                        object
+total_assessed_value          object
+assessment_date               object
+detail_url                    object
+current_assessment_year       object
+property_class_1              object
+status_1                      object
+assessed_value_1              object
+multiple_residences           object
+geometry                      object
+dwelling_units                object
+centroid_lat                  object
+centroid_lon                  object
+gisid                         object
+property_class_2              object
+status_2                      object
+assessed_value_2              object
+property_class_3              object
+status_3                      object
+assessed_value_3              object
+water_frontage_measurement    object
+sewer_frontage_measurement    object
+unit_number                   object
+number_floors_condo           object
+street_direction              object
+property_class_4              object
+status_4                      object
+assessed_value_4              object
+street_suffix                 object
+property_class_5              object
+status_5                      object
+assessed_value_5              object
+dtype: object
+2025-10-10 00:36:43 INFO Missing Values Percentage per Column:
+2025-10-10 00:36:43 INFO assessed_value_5              99.999182
+status_5                      99.999182
+property_class_5              99.999182
+property_class_4              99.995094
+status_4                      99.995094
+assessed_value_4              99.995094
+assessed_value_3              99.959525
+status_3                      99.959525
+property_class_3              99.959525
+street_suffix                 99.743657
+assessed_value_2              99.183545
+status_2                      99.183545
+property_class_2              99.183545
+street_direction              95.062430
+number_floors_condo           89.226637
+unit_number                   88.920006
+property_influences           52.143961
+building_type                 21.054482
+air_conditioning              21.054073
+pool                          20.457575
+detached_garage               20.457575
+attached_garage               20.457575
+assessed_land_area            11.575100
+zoning                        11.286458
+rooms                         10.283981
+year_built                    10.280710
+total_living_area             10.280710
+basement                      10.065660
+multiple_residences            9.458122
+basement_finish                9.458122
+fire_place                     9.458122
+sewer_frontage_measurement     3.825114
+water_frontage_measurement     3.709003
+street_number                  2.006591
+street_type                    1.588755
+street_name                    1.316467
+full_address                   1.314423
+dwelling_units                 0.372045
+status_1                       0.372045
+property_class_1               0.372045
+total_assessed_value           0.372045
+assessed_value_1               0.372045
+dtype: float64
+2025-10-10 00:36:46 INFO Target Null Count:910
+2025-10-10 00:36:46 INFO Min Value for target variable1.0
+2025-10-10 00:36:46 INFO Max Value for target variable1.0
+2025-10-10 00:36:46 INFO Skewness of target variable: 94.25
+2025-10-10 00:37:05 INFO Preparing data and selecting features
+2025-10-10 00:37:05 INFO Selected 23 features for AVM modeling
+2025-10-10 00:37:05 INFO Features: neighbourhood_area, market_region, total_living_area, building_type, year_built, rooms, assessed_land_area, number_floors_condo, basement, basement_finish, air_conditioning, fire_place, attached_garage, detached_garage, pool, property_use_code, zoning, multiple_residences, dwelling_units, water_frontage_measurement, sewer_frontage_measurement, property_influences, total_assessed_value
+2025-10-10 00:37:06 INFO Performing Data Preprocessing:
+2025-10-10 00:37:06 INFO Starting Feature Engineering
+2025-10-10 00:37:06 INFO  Removed redundant columns: basement
+2025-10-10 00:37:06 INFO  Removed redundant columns: basement_finish
+2025-10-10 00:37:06 INFO  Removed redundant columns: air_conditioning
+2025-10-10 00:37:06 INFO  Removed redundant columns: fire_place
+2025-10-10 00:37:06 INFO  Removed redundant columns: attached_garage
+2025-10-10 00:37:06 INFO  Removed redundant columns: detached_garage
+2025-10-10 00:37:06 INFO  Removed redundant columns: pool
+2025-10-10 00:37:06 INFO  Removed redundant columns: year_built
+2025-10-10 00:37:06 INFO  Removed redundant columns: water_frontage_measurement
+2025-10-10 00:37:06 INFO  Removed redundant columns: sewer_frontage_measurement
+2025-10-10 00:37:06 INFO Created 4 new features:
+2025-10-10 00:37:06 INFO  property_age
+2025-10-10 00:37:06 INFO  amenity_score
+2025-10-10 00:37:06 INFO  has_garage
+2025-10-10 00:37:06 INFO  luxury_score
+2025-10-10 00:37:08 INFO Initial dataset: 243684 properties, 16 features
+2025-10-10 00:37:08 INFO Target range: $1 - $651,316,000
+2025-10-10 00:37:08 INFO Target mean: $534,646
+2025-10-10 00:37:08 INFO Removed 4874 outliers (2.0%)
+2025-10-10 00:37:08 INFO Clean dataset: 238810 properties
+2025-10-10 00:37:08 INFO Numeric features (10): ['total_living_area', 'rooms', 'assessed_land_area', 'number_floors_condo', 'multiple_residences', 'dwelling_units', 'property_age', 'amenity_score', 'has_garage', 'luxury_score']
+2025-10-10 00:37:08 INFO Categorical features (6): ['neighbourhood_area', 'market_region', 'building_type', 'property_use_code', 'zoning', 'property_influences']
+2025-10-10 00:49:19 INFO  Logging started
+2025-10-10 00:49:19 INFO Starting dataset load
+2025-10-10 00:49:19 INFO Trying Socrata client
+2025-10-10 00:49:19 WARNING Requests made without an app_token will be subject to strict throttling limits.
+2025-10-10 00:49:55 INFO Data Summary:
+2025-10-10 00:49:55 INFO Dataset Shape (244594, 53)
+2025-10-10 00:49:55 INFO Data Types:
+2025-10-10 00:49:55 INFO roll_number                   object
+street_number                 object
+street_name                   object
+street_type                   object
+full_address                  object
+neighbourhood_area            object
+market_region                 object
+total_living_area             object
+building_type                 object
+basement                      object
+basement_finish               object
+year_built                    object
+rooms                         object
+air_conditioning              object
+fire_place                    object
+attached_garage               object
+detached_garage               object
+pool                          object
+property_use_code             object
+assessed_land_area            object
+property_influences           object
+zoning                        object
+total_assessed_value          object
+assessment_date               object
+detail_url                    object
+current_assessment_year       object
+property_class_1              object
+status_1                      object
+assessed_value_1              object
+multiple_residences           object
+geometry                      object
+dwelling_units                object
+centroid_lat                  object
+centroid_lon                  object
+gisid                         object
+property_class_2              object
+status_2                      object
+assessed_value_2              object
+property_class_3              object
+status_3                      object
+assessed_value_3              object
+water_frontage_measurement    object
+sewer_frontage_measurement    object
+unit_number                   object
+number_floors_condo           object
+street_direction              object
+property_class_4              object
+status_4                      object
+assessed_value_4              object
+street_suffix                 object
+property_class_5              object
+status_5                      object
+assessed_value_5              object
+dtype: object
+2025-10-10 00:49:56 INFO Missing Values Percentage per Column:
+2025-10-10 00:49:56 INFO assessed_value_5              99.999182
+status_5                      99.999182
+property_class_5              99.999182
+property_class_4              99.995094
+status_4                      99.995094
+assessed_value_4              99.995094
+assessed_value_3              99.959525
+status_3                      99.959525
+property_class_3              99.959525
+street_suffix                 99.743657
+assessed_value_2              99.183545
+status_2                      99.183545
+property_class_2              99.183545
+street_direction              95.062430
+number_floors_condo           89.226637
+unit_number                   88.920006
+property_influences           52.143961
+building_type                 21.054482
+air_conditioning              21.054073
+pool                          20.457575
+detached_garage               20.457575
+attached_garage               20.457575
+assessed_land_area            11.575100
+zoning                        11.286458
+rooms                         10.283981
+year_built                    10.280710
+total_living_area             10.280710
+basement                      10.065660
+multiple_residences            9.458122
+basement_finish                9.458122
+fire_place                     9.458122
+sewer_frontage_measurement     3.825114
+water_frontage_measurement     3.709003
+street_number                  2.006591
+street_type                    1.588755
+street_name                    1.316467
+full_address                   1.314423
+dwelling_units                 0.372045
+status_1                       0.372045
+property_class_1               0.372045
+total_assessed_value           0.372045
+assessed_value_1               0.372045
+dtype: float64
+2025-10-10 00:50:00 INFO Target Null Count:910
+2025-10-10 00:50:00 INFO Min Value for target variable1.0
+2025-10-10 00:50:00 INFO Max Value for target variable651316000.0
+2025-10-10 00:50:00 INFO Skewness of target variable: 94.25
+2025-10-10 00:50:51 INFO Preparing data and selecting features
+2025-10-10 00:50:51 INFO Selected 23 features for AVM modeling
+2025-10-10 00:50:51 INFO Features: neighbourhood_area, market_region, total_living_area, building_type, year_built, rooms, assessed_land_area, number_floors_condo, basement, basement_finish, air_conditioning, fire_place, attached_garage, detached_garage, pool, property_use_code, zoning, multiple_residences, dwelling_units, water_frontage_measurement, sewer_frontage_measurement, property_influences, total_assessed_value
+2025-10-10 00:50:51 INFO Performing Data Preprocessing:
+2025-10-10 00:50:51 INFO Starting Feature Engineering
+2025-10-10 00:50:51 INFO  Removed redundant columns: basement
+2025-10-10 00:50:51 INFO  Removed redundant columns: basement_finish
+2025-10-10 00:50:51 INFO  Removed redundant columns: air_conditioning
+2025-10-10 00:50:51 INFO  Removed redundant columns: fire_place
+2025-10-10 00:50:51 INFO  Removed redundant columns: attached_garage
+2025-10-10 00:50:51 INFO  Removed redundant columns: detached_garage
+2025-10-10 00:50:52 INFO  Removed redundant columns: pool
+2025-10-10 00:50:52 INFO  Removed redundant columns: year_built
+2025-10-10 00:50:52 INFO  Removed redundant columns: water_frontage_measurement
+2025-10-10 00:50:52 INFO  Removed redundant columns: sewer_frontage_measurement
+2025-10-10 00:50:52 INFO Created 4 new features:
+2025-10-10 00:50:52 INFO  property_age
+2025-10-10 00:50:52 INFO  amenity_score
+2025-10-10 00:50:52 INFO  has_garage
+2025-10-10 00:50:52 INFO  luxury_score
+2025-10-10 00:50:53 INFO Initial dataset: 243684 properties, 16 features
+2025-10-10 00:50:53 INFO Target range: $1 - $651,316,000
+2025-10-10 00:50:53 INFO Target mean: $534,646
+2025-10-10 00:50:53 INFO Removed 4874 outliers (2.0%)
+2025-10-10 00:50:53 INFO Clean dataset: 238810 properties
+2025-10-10 00:50:53 INFO Numeric features (10): ['total_living_area', 'rooms', 'assessed_land_area', 'number_floors_condo', 'multiple_residences', 'dwelling_units', 'property_age', 'amenity_score', 'has_garage', 'luxury_score']
+2025-10-10 00:50:53 INFO Categorical features (6): ['neighbourhood_area', 'market_region', 'building_type', 'property_use_code', 'zoning', 'property_influences']
+2025-10-10 00:50:53 INFO Performing Model Training:
+2025-10-10 00:50:53 INFO Training: 191048 properties
+2025-10-10 00:50:53 INFO Testing: 47762 properties
+2025-10-10 00:50:53 INFO Training XGBoost...
+2025-10-10 02:24:13 INFO   R² Score: 0.8302
+2025-10-10 02:24:13 INFO   MAE: $41,726
+2025-10-10 02:24:13 INFO   MAPE: 10.28%
+2025-10-10 02:24:13 INFO Model evaluation:
+2025-10-10 02:24:13 INFO Best Model: XGBoost
+2025-10-10 02:24:13 INFO Best Parameters: {'regressor__n_estimators': 200, 'regressor__max_depth': 10, 'regressor__learning_rate': 0.1}
+2025-10-10 02:24:13 INFO Performance Metrics:
+2025-10-10 02:24:13 INFO   R² Score: 0.8302 (83.0% variance explained)
+2025-10-10 02:24:13 INFO   MAPE: 10.28%
+2025-10-10 02:24:13 INFO   MAPE: 10.28%
+2025-10-10 02:24:13 INFO Prediction Accuracy:
+2025-10-10 02:24:13 INFO   Within 5% of actual value: 46.6%
+2025-10-10 02:24:13 INFO   Within 10% of actual value: 72.0%
+2025-10-10 02:24:13 INFO   Within 15% of actual value: 83.5%
+2025-10-10 02:24:13 INFO Performance by Value Range:
+2025-10-10 02:24:13 INFO   Low value (≤$292,000): MAE = $27,117
+2025-10-10 02:24:13 INFO   Mid value ($292,000-$412,000): MAE = $23,093
+2025-10-10 02:24:13 INFO   High value (>$412,000): MAE = $75,761
+2025-10-10 02:24:13 INFO AVM summary :
+2025-10-10 02:24:13 INFO 
+Model                R² Score   RMSE            MAE             MAPE (%)  
+2025-10-10 02:24:13 INFO XGBoost              0.8302     $122,304        $41,726         10.28     
+2025-10-10 02:24:13 INFO BEST MODEL: XGBoost
+2025-10-10 02:24:13 INFO  Explains 83.0% of property value variance
+2025-10-10 02:24:13 INFO  Average prediction error: $41,726
+2025-10-10 02:24:13 INFO  Average percentage error: 10.3%
+2025-10-10 02:24:13 INFO 72.0% of predictions within 10% of actual value
