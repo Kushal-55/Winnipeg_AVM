@@ -49,7 +49,7 @@ This repository provides a Python implementation of an Automated Valuation Model
 - No local data files are included; the script handles fetching and initial cleaning.
 
 ## Logging
-- The script logs progress and metrics to `avm_main.log`.
+- The script logs progress and metrics to `winnipeg_avm.log`. A copy of the previous logs can be found in the Output folder.
 
 ## Assumptions
 - Python 3.8 or higher is used.
