@@ -10,10 +10,10 @@ This repository provides a Python implementation of an Automated Valuation Model
 - `avm_main.py`: Main Python script containing data loading, exploratory analysis, feature engineering, preprocessing, model training, and evaluation.
 - `requirements.txt`: Lists all Python package dependencies with fixed versions.
 - `README.md`: This documentation file.
-- `Outputs` : Contains the log file and plots
+- `Output` : Contains the log file and plots
 - `Documentation`: Contains two documentation files explaining the project:
 - - accessibility_documentation : For non-technical audiences
-- - technial_documentation : For technical audiences
+- - technical_documentation : For technical audiences
 
 ## How to run the Python script:
 1. Clone this repository:
