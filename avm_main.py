@@ -123,7 +123,7 @@ class WinnipegAVM:
         # target analysis
         null_count_target = df["total_assessed_value"].isna().sum()
         min_c = df["total_assessed_value"].min()
-        max_c = df["total_assessed_value"].min()
+        max_c = df["total_assessed_value"].max()
         skewness = df["total_assessed_value"].skew()
 
         logging.info(f"Target Null Count:{null_count_target}")
