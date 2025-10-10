@@ -1,3 +1,4 @@
+## Automated valuation Model for Winnipeg properties
 * I built an automated property valuation model to predict assessment values for Winnipeg homes using publicly available data from the City of Winnipeg’s Open Data Portal, including physical characteristics, location, and amenities.  
 * Data Analysis & Visualization:   
   * I analyzed and selected key features that influence property values—living area, building type, age, location, and amenities. I created visualizations to understand relationships between features like room count, area, and property prices.  
