@@ -1,5 +1,5 @@
 # Winnipeg_AVM
-
+This repository provides a Python implementation of an Automated Valuation Model (AVM) for predicting the assessed value of residential properties in Winnipeg.
 # Automated Valuation Model (AVM)
 
 ## Description
